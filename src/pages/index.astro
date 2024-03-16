@@ -1,0 +1,15 @@
+---
+import Home from "../game/Home.svelte";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Astro + Phaser 3</title>
+  </head>
+
+  <body>
+    <Home client:only="svelte" />
+  </body>
+</html>
